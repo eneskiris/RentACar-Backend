@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/ConsoleUI/ConsoleUI.csproj": {}
+  },
+  "projects": {
+    "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Business/Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Business/Business.csproj",
+        "projectName": "Business",
+        "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Business/Business.csproj",
+        "packagesPath": "/Users/eneskiris/.nuget/packages/",
+        "outputPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eneskiris/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/DataAccess/DataAccess.csproj"
+              },
+              "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/Entities.csproj": {
+                "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/ConsoleUI/ConsoleUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/ConsoleUI/ConsoleUI.csproj",
+        "projectName": "ConsoleUI",
+        "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/ConsoleUI/ConsoleUI.csproj",
+        "packagesPath": "/Users/eneskiris/.nuget/packages/",
+        "outputPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/ConsoleUI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eneskiris/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Business/Business.csproj": {
+                "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Business/Business.csproj"
+              },
+              "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/DataAccess/DataAccess.csproj"
+              },
+              "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/Entities.csproj": {
+                "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Core/Core.csproj",
+        "packagesPath": "/Users/eneskiris/.nuget/packages/",
+        "outputPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eneskiris/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/eneskiris/.nuget/packages/",
+        "outputPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eneskiris/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Core/Core.csproj": {
+                "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Core/Core.csproj"
+              },
+              "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/Entities.csproj": {
+                "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/Entities.csproj",
+        "packagesPath": "/Users/eneskiris/.nuget/packages/",
+        "outputPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eneskiris/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Core/Core.csproj": {
+                "projectPath": "/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+/Users/eneskiris/Projects/ReCapProject/Core/bin/Debug/netstandard2.1/Core.deps.json
+/Users/eneskiris/Projects/ReCapProject/Core/bin/Debug/netstandard2.1/Core.dll
+/Users/eneskiris/Projects/ReCapProject/Core/bin/Debug/netstandard2.1/Core.pdb
+/Users/eneskiris/Projects/ReCapProject/Core/obj/Debug/netstandard2.1/Core.csproj.AssemblyReference.cache
+/Users/eneskiris/Projects/ReCapProject/Core/obj/Debug/netstandard2.1/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eneskiris/Projects/ReCapProject/Core/obj/Debug/netstandard2.1/Core.AssemblyInfoInputs.cache
+/Users/eneskiris/Projects/ReCapProject/Core/obj/Debug/netstandard2.1/Core.AssemblyInfo.cs
+/Users/eneskiris/Projects/ReCapProject/Core/obj/Debug/netstandard2.1/Core.csproj.CoreCompileInputs.cache
+/Users/eneskiris/Projects/ReCapProject/Core/obj/Debug/netstandard2.1/Core.dll
+/Users/eneskiris/Projects/ReCapProject/Core/obj/Debug/netstandard2.1/Core.pdb

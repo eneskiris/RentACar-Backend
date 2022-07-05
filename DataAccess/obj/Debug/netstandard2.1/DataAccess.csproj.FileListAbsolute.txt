@@ -1,0 +1,15 @@
+/Users/eneskiris/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/DataAccess.deps.json
+/Users/eneskiris/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/DataAccess.dll
+/Users/eneskiris/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/DataAccess.pdb
+/Users/eneskiris/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/Core.dll
+/Users/eneskiris/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/Entities.dll
+/Users/eneskiris/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/Entities.pdb
+/Users/eneskiris/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/Core.pdb
+/Users/eneskiris/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.csproj.AssemblyReference.cache
+/Users/eneskiris/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eneskiris/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.AssemblyInfoInputs.cache
+/Users/eneskiris/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.AssemblyInfo.cs
+/Users/eneskiris/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.csproj.CoreCompileInputs.cache
+/Users/eneskiris/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.csproj.CopyComplete
+/Users/eneskiris/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.dll
+/Users/eneskiris/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.pdb
