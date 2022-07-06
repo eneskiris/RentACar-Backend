@@ -11,3 +11,16 @@
 /Users/eneskiris/Projects/ReCapProject/Entities/obj/Debug/netstandard2.1/Entities.csproj.CopyComplete
 /Users/eneskiris/Projects/ReCapProject/Entities/obj/Debug/netstandard2.1/Entities.dll
 /Users/eneskiris/Projects/ReCapProject/Entities/obj/Debug/netstandard2.1/Entities.pdb
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/bin/Debug/netstandard2.1/Entities.deps.json
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/bin/Debug/netstandard2.1/Entities.dll
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/bin/Debug/netstandard2.1/Entities.pdb
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/bin/Debug/netstandard2.1/Core.dll
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/bin/Debug/netstandard2.1/Core.pdb
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/obj/Debug/netstandard2.1/Entities.csproj.AssemblyReference.cache
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/obj/Debug/netstandard2.1/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/obj/Debug/netstandard2.1/Entities.AssemblyInfoInputs.cache
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/obj/Debug/netstandard2.1/Entities.AssemblyInfo.cs
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/obj/Debug/netstandard2.1/Entities.csproj.CoreCompileInputs.cache
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/obj/Debug/netstandard2.1/Entities.csproj.CopyComplete
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/obj/Debug/netstandard2.1/Entities.dll
+/Users/eneskiris/Desktop/RentACar-With-EntityFramework/Entities/obj/Debug/netstandard2.1/Entities.pdb

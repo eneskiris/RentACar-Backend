@@ -10,7 +10,7 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            //CarTest();
+            CarTest();
             //BrandTest();
             //ColorTest();
 
@@ -29,13 +29,14 @@ namespace ConsoleUI
             //Color color = new Color() { ColorId=3 };
             //colorManager.Delete(color);
 
+            
             //foreach (var color in colorManager.GetAll())
             //{
             //    Console.WriteLine(color.ColorName);
             //}
 
 
-            Console.WriteLine(colorManager.GetById(1).ColorName);
+            //Console.WriteLine(colorManager.GetById(1).ColorName);
         }
 
         private static void BrandTest()
@@ -93,11 +94,23 @@ namespace ConsoleUI
 
 
 
+            var result = carManager.GetCarDetails();
 
-            //foreach (var car in carManager.GetCarDetails())
-            //{
-            //    Console.WriteLine("{0} / {1} / {2} / {3} / {4}", car.CarId, car.BrandName, car.CarName, car.ColorName, car.DailyPrice);
-            //}
+            if (result.Success == true)
+            {
+                foreach (var car in result.Data)
+                {
+                    Console.WriteLine("{0} / {1} / {2} / {3} / {4}", car.CarId, car.BrandName, car.CarName, car.ColorName, car.DailyPrice);
+
+                    Console.WriteLine(result.Message);
+                }
+
+            }
+            else
+            {
+                Console.WriteLine(result.Message); //Hata mesajı ayarlanacak.
+            }
+
         }
     }
 }
