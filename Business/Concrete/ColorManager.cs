@@ -33,7 +33,7 @@ namespace Business.Concrete
         public IResult Delete(Color color)
         {
             _colorDal.Delete(color);
-            return new SuccessResult(Messages.ColorAdded);
+            return new SuccessResult(Messages.ColorDeleted);
         }
 
         public IDataResult<List<Color>> GetAll()
