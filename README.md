@@ -1,4 +1,6 @@
-# RentACar-With-EntityFramework
+# RentACar
 
-SOLID - MSSQL - CRUD
+SOLID - Autofac - FluentValidation - AOP
+
+
 
