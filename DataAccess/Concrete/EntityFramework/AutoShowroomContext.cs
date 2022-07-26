@@ -8,7 +8,7 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost;Database=AutoShowroom;User=sa;Password=YOURDATABASEPW;");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Database=AutoShowroom;User=sa;Password=Enes35.*;");
         }
 
         public DbSet<Car> Cars { get; set;}
@@ -22,6 +22,8 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Customer> Customers { get; set; }
 
         public DbSet<Rental> Rentals { get; set; }
+
+        public DbSet<CarImage> CarImages { get; set; }
     }
 }
 
