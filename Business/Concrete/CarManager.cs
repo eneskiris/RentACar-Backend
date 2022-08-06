@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Business.Abstract;
+using Business.BusinessAspect.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspect.Autofac.Validation;
@@ -21,6 +22,7 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
+        [SecuredOperation("admin,car.add")]
         [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
@@ -64,6 +66,8 @@ namespace Business.Concrete
             _carDal.Update(car);
             return new SuccessResult(Messages.CarUpdated);
         }
+
     }
+
 }
 

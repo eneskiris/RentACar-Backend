@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Runtime.Serialization;
+using Core.Entities.Concrete;
+
 namespace Business.Constants
 {
     public static class Messages
@@ -26,6 +29,10 @@ namespace Business.Constants
         public static string UserUpdated = "Kullanıcı güncellendi.";
         public static string UserDeleted = "Kullanıcı silindi.";
         public static string UserListed = "Kullanıcılar listelendi.";
+        public static string UserRegistered = "UserRegistered";
+        public static string UserNotFound = "UserNotFound";
+        public static string PasswordError = "PasswordError";
+        public static string SuccesfullLogin = "SuccesfullLogin";
 
         public static string CustomerAdded = "Müşteri eklendi.";
         public static string CustomerInvalid = "Müşteri eklenemedi.";
@@ -43,6 +50,10 @@ namespace Business.Constants
         public static string CarImageDeleted = "Fotoğraf silindi.";
         public static string ImagesListed = "Fotoğraflar listelendi.";
         public static string CarImageUpdated = "Fotoğraf güncellendi.";
+
+        public static string AuthorizationDenied = "AuthorizationDenied!";
+        public static string UserAlreadyExists = "UserAlreadyExists";
+        public static string AccessTokenCreated = "AccessTokenCreated";
     }
 }
 
