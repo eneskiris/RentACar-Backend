@@ -53,6 +53,26 @@ namespace Business.Concrete
             return new SuccessDataResult<Car>(_carDal.Get(x=> x.CarId == carId));
         }
 
+        public IDataResult<List<CarDetailDto>> GetCarDetailByBrandId(int id)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.BrandId == id), Messages.CarsListed);
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailByColorAndByBrand(int colorId, int brandId)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.ColorId == colorId && c.BrandId == brandId ));
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailByColorId(int id)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.ColorId == id), Messages.CarsListed);
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailById(int id)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.CarId == id), Messages.CarsListed);
+        }
+
         public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(),Messages.CarsListed);
