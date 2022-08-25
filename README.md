@@ -1,6 +1,7 @@
 # RentACar
 
-SOLID - Autofac - FluentValidation - AOP
+SOLID - Autofac - FluentValidation - AOP - Authentication JWT - Operation Claim
+
 
 
 
